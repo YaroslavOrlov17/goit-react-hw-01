@@ -1,0 +1,64 @@
+.profileBox {
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 350px;
+}
+
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 20px;
+  color: gray;
+}
+
+.statsWrapper {
+  background-color: lightgray;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 0;
+  text-align: center;
+  flex-direction: row;
+  border-top: 2px solid black;
+  li {
+    flex: 1;
+  }
+}
+
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  border-right: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.followersTitle {
+  font-size: 18px;
+}
+
+.followersNum {
+  font-weight: bold;
+  font-size: 18px;
+}

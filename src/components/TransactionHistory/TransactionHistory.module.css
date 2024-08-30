@@ -1,0 +1,24 @@
+.table {
+  width: 700px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.thead th {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tbody td {
+  text-transform: capitalize;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
